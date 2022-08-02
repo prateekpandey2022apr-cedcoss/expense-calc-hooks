@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body {
+  width: 400px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-income-form {
+  width: 300px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.income-pill {
+  background-color: #437746;
+  border-radius: 15px;
+  padding: 5px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.expanse-pill {
+  background-color: #D0667A;
+  border-radius: 15px;
+  padding: 5px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.balance-pill {
+  background-color: #57afeb;
+  border-radius: 15px;
+  padding: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit {
+  margin-right: 5px;
+  background-color: #645BF5;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
 }
+
+.delete {
+  background-color: #EB4232;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.add-btn {
+  background-color: #57AFEB;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+/* .add-btn:hover {
+  background-color: #4b99ce;
+} */
